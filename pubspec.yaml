@@ -1,0 +1,36 @@
+name: weather_app
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Application version
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Compatible with Dart SDK 3.x
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Essential dependencies
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  geolocator: ^13.0.2 # Updated for better compatibility
+  geocoding: ^3.0.0
+  lottie: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0 # Updated to match Flutter 3.x
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/cloudy.json
+    - assets/sunny.json
+    - assets/rainy.json
+    - assets/sunnyrain.json

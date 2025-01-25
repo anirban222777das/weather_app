@@ -29,4 +29,4 @@ A new Flutter project to provide accurate weather updates with a beautiful, user
 ## **How to Run**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/weather_app.git
+   git clone https://github.com/anirban222777das/weather_app.git
